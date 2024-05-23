@@ -1,7 +1,7 @@
 ﻿using BlogForest.BusinessLayer.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlogForest.WebUI.ViewComponents.DefaultViewComponents.BlogViewComponents
+namespace BlogForest.WebUI.ViewComponents.BlogViewComponents
 {
     public class _BlogListComponentPartial : ViewComponent
     {
@@ -14,7 +14,7 @@ namespace BlogForest.WebUI.ViewComponents.DefaultViewComponents.BlogViewComponen
 
         public IViewComponentResult Invoke()
         {
-            var values = _blogService.TGetListAll();
+            var values = _blogService.TGetBlogsWithCategoryAndUser();
             return View(values);
         }
     }

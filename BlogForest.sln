@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogForest.EntityLayer", "BlogForest.EntityLayer\BlogForest.EntityLayer.csproj", "{1EA0785A-D7E8-4369-B829-FFC595C1C3A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogForest.EntityLayer", "BlogForest.EntityLayer\BlogForest.EntityLayer.csproj", "{1EA0785A-D7E8-4369-B829-FFC595C1C3A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogForest.DataAccessLayer", "BlogForest.DataAccessLayer\BlogForest.DataAccessLayer.csproj", "{F67D3AED-04DD-4324-8178-53915F068C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogForest.DataAccessLayer", "BlogForest.DataAccessLayer\BlogForest.DataAccessLayer.csproj", "{F67D3AED-04DD-4324-8178-53915F068C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogForest.BusinessLayer", "BlogForest.BusinessLayer\BlogForest.BusinessLayer.csproj", "{932E2F4A-9FF5-4891-9A2A-F2E4F1546195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogForest.BusinessLayer", "BlogForest.BusinessLayer\BlogForest.BusinessLayer.csproj", "{932E2F4A-9FF5-4891-9A2A-F2E4F1546195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogForest.WebUI", "BlogForest.WebUI\BlogForest.WebUI.csproj", "{A68DD127-ABAB-4358-8F69-DF53D9257C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogForest.WebUI", "BlogForest.WebUI\BlogForest.WebUI.csproj", "{A68DD127-ABAB-4358-8F69-DF53D9257C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogForest.DtoLayer", "BlogForest.DtoLayer\BlogForest.DtoLayer.csproj", "{0A0044F2-A20A-4F11-8AFE-588F97B3F613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A68DD127-ABAB-4358-8F69-DF53D9257C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A68DD127-ABAB-4358-8F69-DF53D9257C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A68DD127-ABAB-4358-8F69-DF53D9257C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0044F2-A20A-4F11-8AFE-588F97B3F613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0044F2-A20A-4F11-8AFE-588F97B3F613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0044F2-A20A-4F11-8AFE-588F97B3F613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0044F2-A20A-4F11-8AFE-588F97B3F613}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
